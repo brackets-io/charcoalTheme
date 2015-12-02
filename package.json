@@ -1,0 +1,15 @@
+{
+    "name": "charcoalTheme",
+    "title": "Charcoal",
+    "description": "This theme is named after a pretty chill cafe near my house :P!",
+    "homepage": "https://github.com/Dsupreme/charcoalTheme",
+    "version": "1.0.0",
+    "author": "Manmeet S. Oberoi <ms_oberoi@outlook.com>",
+    "license": "MIT",
+    "theme": {
+        "file": "main.css",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme", "charcoal", "brackets"]
+}

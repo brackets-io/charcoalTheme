@@ -1,0 +1,234 @@
+/* General */
+
+span.cm-header {
+    color: #ABB2BF;
+}
+span.cm-variable {
+    color: #ABB2BF;
+}
+span.cm-link {
+    color: #98C379;
+}
+span.cm-string-2 {
+    color: #98C379;
+}
+span.cm-meta {
+    color: #ABB2BF;
+}
+span.cm-variable-3 {
+    color: #64B6C3;
+}
+span.cm-comment {
+    color: #98C379;
+}
+span.cm-error {
+    color: red;
+}
+
+/* CSS, LESS */
+
+.cm-m-css.cm-tag {
+    color: #D86C74;
+}
+.cm-m-css.cm-property {
+    color: #ABB2BF;
+}
+.cm-m-css.cm-number {
+    color: #D19A66;
+}
+.cm-m-css.cm-atom {
+    color: #64B6C3;
+}
+.cm-m-css.cm-string {
+    color: #98C379;
+}
+.cm-m-css.cm-builtin {
+    color: #6CAFF2;
+}
+.cm-m-css.cm-qualifier {
+    color: #D86C74;
+}
+
+/* HTML, XML */
+
+.cm-m-xml.cm-tag.cm-bracket {
+    color: #ABB2BF;
+}
+.cm-m-xml.cm-tag {
+    color: #D86C74;
+}
+.cm-m-xml.cm-attribute {
+    color: #D19A66;
+}
+.cm-m-xml.cm-string {
+    color: #98C379;
+}
+
+/* Javascript */
+
+.cm-m-javascript.cm-keyword {
+    color: #D86C74;
+}
+.cm-m-javascript.cm-def {
+    color: #6CAFF2;
+}
+.cm-m-javascript.cm-operator {
+    color: #ABB2BF;
+}
+.cm-m-javascript.cm-string {
+    color: #CD9A61;
+}
+.cm-m-javascript.cm-number {
+    color: #D19A66;
+}
+.cm-m-javascript.cm-variable-2 {
+    color: #6CAFF2;
+}
+.cm-m-javascript.cm-property {
+    color: #ABB2BF;
+}
+.cm-m-javascript.cm-atom {
+    color: #64B6C3;
+}
+
+/* PHP */
+
+.cm-m-clike.cm-keyword {
+    color: #D86C74;
+}
+.cm-m-clike.cm-def {
+    color: #6CAFF2;
+}
+.cm-m-clike.cm-variable-2 {
+    color: #6CAFF2;
+}
+.cm-m-clike.cm-operator {
+    color: #ABB2BF;
+}
+.cm-m-clike.cm-string {
+    color: #CD9A61;
+}
+.cm-m-clike.cm-atom {
+    color: #64B6C3;
+}
+.cm-m-clike.cm-number {
+    color: #D19A66;
+}
+.cm-m-clike.cm-builtin {
+    color: #6CAFF2;
+}
+
+/* Editor */
+
+.CodeMirror {
+    line-height: 1.3;
+}
+.CodeMirror-scroll {
+    background: #191919;
+    color: #F8F8F2;
+}
+.CodeMirror-cursor {
+    border-left: 1px solid #528BFF !important;
+}
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #528BFF !important;
+    border-left: none !important;
+}
+.CodeMirror-gutters {
+    background: #191919;
+}
+.CodeMirror-guttermarker {
+    color: #F8F8F2;
+}
+.CodeMirror-guttermarker-subtle {
+    color: #272822;
+}
+.CodeMirror-selected {
+    background: #3E4451 !important;
+}
+
+/*Collapsed Code*/
+
+.CodeMirror-foldmarker {
+    border: none;
+    background-color: transparent;
+}
+.CodeMirror-foldmarker:after {
+    content: "-----";
+    line-height: 1.4em;
+}
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background-color: transparent !important;
+    color: #1dff00 !important;
+    font-weight: bold;
+}
+.CodeMirror-matchingtag {
+    background: #38404C !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+    color: #ff0076 !important;
+}
+.CodeMirror-activeline-background {
+    background: #2C323B !important;
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #ABB2BF;
+    background-color: #2C313A;
+}
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+    color: #ABB2BF;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #282C34;
+}
+#image-holder {
+    color: #282C34;
+}
+
+/*Brackets UI Theme*/
+
+.sidebar {
+    background: #191919;
+}
+#project-files-header {
+    height: 18px;
+}
+#project-files-header .btn-alt-quiet {
+    background: transparent !important;
+}
+.sidebar .working-set-option-btn {
+    background-color: transparent !important;
+}
+
+/*Right Sidebar*/
+
+#main-toolbar {
+    background: #191919;
+}
+
+/*Bottom Status Bar*/
+
+.dark #status-bar {
+    z-index: 50;
+}
+
+/* Tabs - Custom Working Plugin Styling*/
+
+.cw-tabbar {
+    background: #191919;
+    border-bottom: 2px solid #282C34;
+    z-index: 2000;
+}
+.cw-nav-ul>li.selected {
+    background: #232323;
+}
